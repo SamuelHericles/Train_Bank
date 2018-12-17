@@ -1,7 +1,7 @@
 # Train Bank
   The work consist of to create a simple operations of a Bank.
 # The functions and types available  in the program
-  - String nome; //coloque todas as variáveis como private
+  - String nome;
   - int numero;
   - double saldo;
   - getNome();
