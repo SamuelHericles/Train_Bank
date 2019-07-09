@@ -1,7 +1,6 @@
 
 /*
- * In this class, have the sequences screens for initial TrainBank
- * 
+ * Nesta classe temos toda os utilitários para formatação da tela do usuário
  * */
 
 package TrainBank;
@@ -15,7 +14,7 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 public class Configuracoes  extends JFrame implements ActionListener{
 	
-	// All types for the class ''Configuracoes''
+	// Todos os componentes que vamos utilizar na tela
 	private static final long serialVersionUID = 1L;
 	JButton bt1,bt2,bt3,bt4,bt5,bt6;
     Contas conta1;
@@ -24,7 +23,7 @@ public class Configuracoes  extends JFrame implements ActionListener{
     String teste;
     
     
-    // Constructor of the class,here make the all parameters for popular the Bank
+    // Construtor para receber os principais valores do banco
     public Configuracoes(){
     		
       super("Prmeira Janela");
@@ -48,7 +47,7 @@ public class Configuracoes  extends JFrame implements ActionListener{
       conta3.setMulta(Double.parseDouble(JOptionPane.showInputDialog("Digite a multa da conta")));
         
 
-      //The buttons and your actions.
+      //Todos os butões e suas respectivas funcionalidades
 	    Container c = getContentPane();
 	
 	    c.setLayout(new GridLayout(3,2,10,15));
@@ -85,9 +84,9 @@ public class Configuracoes  extends JFrame implements ActionListener{
 	    setSize(300,200);
 	    setVisible(true);
 
-    }// End the constructor class "Configuacoes"
+    }//Fim da classe de configurações
     
-    //Treat errors in user inputs
+    //Tratador de erros de entrada do usuário
     @Override
     public void actionPerformed(ActionEvent e) {
         /*SACAR*/
@@ -196,6 +195,6 @@ public class Configuracoes  extends JFrame implements ActionListener{
                 setVisible(false);
                 dispose();
             }      
-          }// End treats
+          }//Fim do tratador
     
-}// End Class
+}// Fim da classe

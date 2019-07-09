@@ -1,7 +1,7 @@
 /*DISCIPLINA: TECNICAS DE PROGRAMACAO
 
 DUPLA: SAMUEL HERICLES SOUZA SILVEIRA
-       GERONIMO PEREIRA AGUIAr
+       GERONIMO PEREIRA AGUIAA
 
 EMAIL: samuel.hericles@outlook.com
        geronimopereiraaguiar@gmail.com
@@ -9,7 +9,7 @@ EMAIL: samuel.hericles@outlook.com
 package TrainBank;
 
 
-//===Function for run the programming
+//===Função para executar o programa
 public class ClassPrincipal {
     public static void main(String[] args) {
         new Configuracoes();

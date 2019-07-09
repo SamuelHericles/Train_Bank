@@ -1,3 +1,7 @@
+/*
+  Classe onde possui as funções requeridas no trabalho para
+  funcionamento do TrainBank 
+*/
 package TrainBank;
     public class ContaPoupanca extends Contas{ 
         private double taxa;

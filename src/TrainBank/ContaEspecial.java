@@ -20,7 +20,7 @@ public class ContaEspecial extends Contas{
         this.multa = multa;
     }
     
-    //The "descontar" method form as is discount in looting
+    //Método para descontar em um conta o valor requerido
     public boolean descontar(double valor, double multa){
         if(valor>limite+getSaldo()){
             return false;
@@ -36,9 +36,8 @@ public class ContaEspecial extends Contas{
         }
        
     }
-    /**
-     * 
-     */
+
+    //Método para setar o tipo de conta escolhida
     @Override
     public void tipoConta(){
         System.out.println("Tipo de conta: conta-especial");
